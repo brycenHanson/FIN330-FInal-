@@ -10,7 +10,7 @@ import yfinance as yf
 # ---------- Config ----------
 st.set_page_config(page_title="FIN 330 — Portfolio Dashboard", layout="wide")
  
-DEFAULT_TICKERS = ["AAPL", "AMZN", "APLD", "GOOGL", "MSFT"]
+DEFAULT_TICKERS = ["TSLA", "AMZN", "APLD", "GOOGL", "MSFT"]
 DEFAULT_WEIGHTS = [0.20, 0.25, 0.15, 0.25, 0.15]
 TRADING_DAYS = 252
 RISK_FREE_ANNUAL = 0.045  # ~current 3-mo T-bill ballpark; user can override
