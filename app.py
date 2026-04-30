@@ -370,8 +370,7 @@ with tab2:
         f"i.e., the portfolio was **{risk_word}**. "
         f"On a risk-adjusted basis (Sharpe), the portfolio was **{eff_word}** "
         f"({p_metrics['Sharpe Ratio']:.2f} vs. {b_metrics['Sharpe Ratio']:.2f}). "
-        "Use this as a starting point for your written interpretation — don't just paste it in; "
-        "explain *why* (sector tilt, single-name concentration, beta exposure, etc.)."
+       
     )
  
 st.caption("Data: Yahoo Finance via yfinance. Educational use only — not investment advice.")
